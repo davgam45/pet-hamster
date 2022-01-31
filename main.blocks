@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="duseTRNa31RQ6vT~2~(C" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="hD1ArEzE!-`UoN5Xd#DD"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_forever" id="98TW}*KL+#PE)TSb/PPi" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id=",J|pDfLMxlU6G:y-r0H1"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="#8C1{oPS0DuY_dlh0j10"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="Pnn0rFm_SxdAQU]w7d?2" x="436" y="2"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="$!Xw31V|5qPVo(^N4*hX"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id="mUw,B7LhChmp%_$W0tvG"><field name="i">IconNames.Heart</field></block></next></block></statement></block><block type="input_logo_event" id="np)esF-}o4KMuA:/3=*N" x="456" y="163"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="H`=DfIXde5(5:Hwc.If^"><field name="i">IconNames.Surprised</field></block></statement></block><block type="input_logo_event" id="GWi{J_xAGrX?O!:ffjdx" disabled="true" x="-68" y="395"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="SoundExpression_playUntilDone" id="SPxI/k5%|ht10vOuTBQS" disabled="true"><field name="this">soundExpression.giggle</field></block></statement></block></xml>
